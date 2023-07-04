@@ -1,0 +1,30 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-Iimgui",
+      "-Iimgui/backends",
+      "-c",
+      "-o",
+      "main.o",
+      "main.cpp"
+    ],
+    "directory": "/home/qwerty/fast-mandelbrot-viewer",
+    "file": "/home/qwerty/fast-mandelbrot-viewer/main.cpp",
+    "output": "/home/qwerty/fast-mandelbrot-viewer/main.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-Iimgui",
+      "-Iimgui/backends",
+      "-c",
+      "-o",
+      "smpl.o",
+      "smpl.cpp"
+    ],
+    "directory": "/home/qwerty/fast-mandelbrot-viewer",
+    "file": "/home/qwerty/fast-mandelbrot-viewer/smpl.cpp",
+    "output": "/home/qwerty/fast-mandelbrot-viewer/smpl.o"
+  }
+]
