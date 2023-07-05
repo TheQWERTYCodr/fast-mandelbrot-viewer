@@ -1,6 +1,8 @@
 // project includes:
 #include "defs.hpp"
+#include <GLFW/glfw3.h>
 #include <GL/glext.h>
+#include <GL/glx.h>
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -24,7 +26,7 @@ int main(int argc, char *argv[]) {
 		fprintf(stderr, "glfwInit returned 0, error\n");
 		return 1;
 	}
-	//uint fragShader = glCreateShader(GL_FRAGMENT_SHADER);
+	GLuint fragShader = glCreateShader(GL_FRAGMENT_SHADER);
 	// Decide GL+GLSL versions
 #if defined(IMGUI_IMPL_OPENGL_ES2)
 	// GL ES 2.0 + GLSL 100
